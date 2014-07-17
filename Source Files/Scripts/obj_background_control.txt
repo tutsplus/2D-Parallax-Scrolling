@@ -1,0 +1,10 @@
+/***************************************************
+  The larger the division number the faster
+  the background will move.
+ ***************************************************/
+
+draw_background_tiled_horizontal(bg_ex_3_0,view_xview[view_current]/1.5,view_yview[view_current]/2.5+175) // Draw slowest layer
+draw_background_tiled_horizontal(bg_ex_3_1,view_xview[view_current]/2,view_yview[view_current]/5+250) // Draw slower layer
+draw_background_tiled_horizontal(bg_ex_3_2,view_xview[view_current]/2.5,view_yview[view_current]/10+300) // Draw focal point layer
+draw_background_tiled_horizontal(bg_ex_3_3,-view_xview[view_current]*1.5,-view_yview[view_current]+700) // Draw faster layer
+
